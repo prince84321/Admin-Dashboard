@@ -1,0 +1,93 @@
+.navbar{
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 6px 11px -7px rgba(173,171,173,1);
+    -moz-box-shadow: 0px 6px 11px -7px rgba(173,171,173,1);
+     box-shadow: 0px 6px 11px -7px rgba(173,171,173,1);
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 22;     
+}
+.navbar-wrapper{
+    width: 100%;
+}
+.navbar-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 232px;
+    object-fit: cover;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.custom-button{
+    width: 230px;
+    height: 35px;
+    outline: none;
+    color: grey;
+    font-size: 13px;
+    padding-left: 10px;
+    border-radius: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 3px 11px -3px rgba(173,171,173,1);
+    -moz-box-shadow: 0px 3px 11px -3px rgba(173,171,173,1);
+    box-shadow: 0px 3px 11px -3px rgba(173,171,173,1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(223, 221, 221);
+}
+.custom-button:hover{
+    background-color: #fff;
+    color: grey;
+    outline: none;
+}
+.btn-primary.dropdown-toggle{
+    background-color: #fff !important;
+    color: grey !important;
+    outline: none !important;
+    border: 0 !important;
+    border-color: #fff !important;
+}
+.btn-primary.dropdown-toggle:focus{
+    -webkit-box-shadow: 0px 3px 11px -3px rgba(173,171,173,1);
+    -moz-box-shadow: 0px 3px 11px -3px rgba(173,171,173,1);
+    box-shadow: 0px 3px 11px -3px rgba(173,171,173,1);
+}
+.dropdown-item{
+    width: 230px;
+    color: grey;
+    font-size: 13px;
+}
+.navbar-right>span{
+    color: #f47920 !important;
+    font-size: 15px;
+    cursor: pointer;
+}
+.navbar-righ-icon{
+    color: #f47920;
+    cursor: pointer;
+    font-size: 35px !important;
+}
+.navbar-right-user{
+    color: #f47920;
+    cursor: pointer;
+    font-size: 35px !important;
+}
+
+
+
+
