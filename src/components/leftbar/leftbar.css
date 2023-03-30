@@ -37,10 +37,10 @@
     padding: 10px;
 }
 .leftbar-content:hover{
-    background-color: rgb(207, 204, 204);
+    background-color: #cfcccc;
 }
 .leftbar-content>span{
-    color: rgb(47, 46, 46);
+    color: #2f2e2e;
 }
 .leftbar-icon-plus{
     position: absolute;
